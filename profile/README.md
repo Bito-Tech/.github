@@ -1,4 +1,4 @@
-# BitSoft-IT
+# Bito-Tech
 
 <div align="center">
 
