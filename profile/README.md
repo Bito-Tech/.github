@@ -1,13 +1,7 @@
 <p align="center">
   <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./assets/hero/hero-dark.svg"
-    >
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="./assets/hero/hero-light.svg"
-    >
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-light.svg">
     <img
       src="./assets/hero/hero-light.svg"
       width="100%"
@@ -16,6 +10,55 @@
   </picture>
 </p>
 
+<br>
+
+<h3 align="center">Team</h3>
+
+<p align="center">
+  <a href="https://github.com/ayman-albaidahi">
+    <img src="https://github.com/ayman-albaidahi.png?size=120" width="58" height="58" alt="Ayman">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/Alhareith">
+    <img src="https://github.com/Alhareith.png?size=120" width="58" height="58" alt="Al-Harith">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/Abdullah-Al-basheri">
+    <img src="https://github.com/Abdullah-Al-basheri.png?size=120" width="58" height="58" alt="Abdullah Hamoud">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/Malek711">
+    <img src="https://github.com/Malek711.png?size=120" width="58" height="58" alt="Malek">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/Mulatef-Aldahia">
+    <img src="https://github.com/Mulatef-Aldahia.png?size=120" width="58" height="58" alt="Mulatif">
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    Ayman
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Al-Harith
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Abdullah Hamoud
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Malek
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Mulatif
+  </sub>
+</p>
+
+<p align="center">
+    <a href="https://www.linkedin.com/company/bito-tech">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="45" alt="LinkedIn">
+  </a>
+</p>
 
 <br>
 
@@ -23,91 +66,16 @@
 
 <p align="center">
   <a href="https://github.com/Bito-Tech/msarak">
-    <img src="./assets/projects/masarak.svg" width="29%" alt="MASARAK" />
+    <img src="./assets/projects/masarak.svg" width="29%" alt="MASARAK">
   </a>
   &nbsp;
 
   <a href="https://github.com/Bito-Tech/fraud-detection-paysim">
-    <img src="./assets/projects/fraud-detection.svg" width="29%" alt="Fraud Detection" />
+    <img src="./assets/projects/fraud-detection.svg" width="29%" alt="Fraud Detection">
   </a>
   &nbsp;
 
   <a href="https://github.com/Bito-Tech/fedra-pharmacy-management-system">
-    <img src="./assets/projects/fedra.svg" width="29%" alt="FEDRA" />
+    <img src="./assets/projects/fedra.svg" width="29%" alt="FEDRA">
   </a>
 </p>
-
-<br>
-
-<h3 align="center">Team</h3>
-
-<p align="center">
-
-  <a href="https://github.com/ayman-albaidahi">
-    <img src="https://github.com/ayman-albaidahi.png?size=96"
-         width="54"
-         height="54"
-         alt="Ayman">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Alhareith">
-    <img src="https://github.com/Alhareith.png?size=96"
-         width="54"
-         height="54"
-         alt="Al-Harith">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Abdullah-Al-basheri">
-    <img src="https://github.com/Abdullah-Al-basheri.png?size=96"
-         width="54"
-         height="54"
-         alt="Abdullah Hamoud">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Malek711">
-    <img src="https://github.com/Malek711.png?size=96"
-         width="54"
-         height="54"
-         alt="Malek">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Mulatef-Aldahia">
-    <img src="https://github.com/Mulatef-Aldahia.png?size=96"
-         width="54"
-         height="54"
-         alt="Mulatif">
-  </a>
-
-</p>
-
-<p align="center">
-  <sub>
-    <b>Ayman</b>
-    &nbsp;&nbsp;&nbsp;
-    <b>Al-Harith</b>
-    &nbsp;&nbsp;&nbsp;
-    <b>Abdullah Hamoud</b>
-    &nbsp;&nbsp;&nbsp;
-    <b>Malek</b>
-    &nbsp;&nbsp;&nbsp;
-    <b>Mulatif</b>
-  </sub>
-</p>
-
-<br>
-
-<p align="center">
-  <a href="https://github.com/bito-tech">
-    <img src="https://skillicons.dev/icons?i=github" width="45" alt="GitHub">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/company/bito-tech">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="45" alt="LinkedIn">
-  </a>
-</p>
-
-<br>
