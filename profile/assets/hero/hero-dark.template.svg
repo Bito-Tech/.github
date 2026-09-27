@@ -353,22 +353,93 @@
 
 
 <!-- Signal: Core → Team -->
+<!-- Signal: Core → Ayman -->
 <circle r="3.2" fill="#89BCEF">
-
   <animateMotion
-    path="M930 366 C930 408 750 420 750 469"
+    path="M930 366 C930 408 580 420 580 469"
     dur="6.2s"
-    begin=".7s"
+    begin="0s"
     repeatCount="indefinite"/>
 
   <animate
     attributeName="opacity"
-    values="0;.8;.8;0"
-    keyTimes="0;.15;.82;1"
+    values="0;.85;.85;0"
+    keyTimes="0;.12;.84;1"
     dur="6.2s"
-    begin=".7s"
+    begin="0s"
+    repeatCount="indefinite"/>
+</circle>
+
+
+<!-- Signal: Core → Al-Harith -->
+<circle r="3.2" fill="#89BCEF">
+  <animateMotion
+    path="M930 366 C930 400 750 420 750 469"
+    dur="6.2s"
+    begin="1.1s"
     repeatCount="indefinite"/>
 
+  <animate
+    attributeName="opacity"
+    values="0;.85;.85;0"
+    keyTimes="0;.12;.84;1"
+    dur="6.2s"
+    begin="1.1s"
+    repeatCount="indefinite"/>
+</circle>
+
+
+<!-- Signal: Core → Abdullah Hamoud -->
+<circle r="3.2" fill="#89BCEF">
+  <animateMotion
+    path="M930 366 C930 408 925 420 925 469"
+    dur="6.2s"
+    begin="2.2s"
+    repeatCount="indefinite"/>
+
+  <animate
+    attributeName="opacity"
+    values="0;.85;.85;0"
+    keyTimes="0;.12;.84;1"
+    dur="6.2s"
+    begin="2.2s"
+    repeatCount="indefinite"/>
+</circle>
+
+
+<!-- Signal: Core → Malek -->
+<circle r="3.2" fill="#89BCEF">
+  <animateMotion
+    path="M930 366 C930 400 1100 420 1100 469"
+    dur="6.2s"
+    begin="3.3s"
+    repeatCount="indefinite"/>
+
+  <animate
+    attributeName="opacity"
+    values="0;.85;.85;0"
+    keyTimes="0;.12;.84;1"
+    dur="6.2s"
+    begin="3.3s"
+    repeatCount="indefinite"/>
+</circle>
+
+
+<!-- Signal: Core → Mulatif -->
+<circle r="3.2" fill="#89BCEF">
+  <animateMotion
+    path="M930 366 C930 408 1270 420 1270 469"
+    dur="6.2s"
+    begin="4.4s"
+    repeatCount="indefinite"/>
+
+  <animate
+    attributeName="opacity"
+    values="0;.85;.85;0"
+    keyTimes="0;.12;.84;1"
+    dur="6.2s"
+    begin="4.4s"
+    repeatCount="indefinite"/>
 </circle>
 
 
