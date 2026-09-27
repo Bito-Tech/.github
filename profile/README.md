@@ -6,31 +6,6 @@
   />
 </p>
 
-<p align="center">
-  <a href="https://github.com/ayman-albaidahi">
-    <img src="https://github.com/ayman-albaidahi.png?size=88" width="44" height="44" alt="Ayman">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Alhareith">
-    <img src="https://github.com/Alhareith.png?size=88" width="44" height="44" alt="Al-Harith">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Abdullah-Al-basheri">
-    <img src="https://github.com/Abdullah-Al-basheri.png?size=88" width="44" height="44" alt="Abdullah Hamoud">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Malek711">
-    <img src="https://github.com/Malek711.png?size=88" width="44" height="44" alt="Malek">
-  </a>
-  &nbsp;&nbsp;
-
-  <a href="https://github.com/Mulatef-Aldahia">
-    <img src="https://github.com/Mulatef-Aldahia.png?size=88" width="44" height="44" alt="Mulatif">
-  </a>
-</p>
 
 <p align="center">
   <a href="https://github.com/Bito-Tech/msarak"><b>MASARAK</b></a>
