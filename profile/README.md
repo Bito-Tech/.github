@@ -17,12 +17,24 @@
 </p>
 
 
+<br>
+
+<h3 align="center">Featured Work</h3>
+
 <p align="center">
-  <a href="https://github.com/Bito-Tech/msarak"><b>MASARAK</b></a>
-  &nbsp;&nbsp; • &nbsp;&nbsp;
-  <a href="https://github.com/Bito-Tech/fraud-detection-paysim"><b>FRAUD DETECTION</b></a>
-  &nbsp;&nbsp; • &nbsp;&nbsp;
-  <a href="https://github.com/Bito-Tech/fedra-pharmacy-management-system"><b>FEDRA</b></a>
+  <a href="https://github.com/Bito-Tech/msarak">
+    <img src="./assets/projects/masarak.svg" width="29%" alt="MASARAK" />
+  </a>
+  &nbsp;
+
+  <a href="https://github.com/Bito-Tech/fraud-detection-paysim">
+    <img src="./assets/projects/fraud-detection.svg" width="29%" alt="Fraud Detection" />
+  </a>
+  &nbsp;
+
+  <a href="https://github.com/Bito-Tech/fedra-pharmacy-management-system">
+    <img src="./assets/projects/fedra.svg" width="29%" alt="FEDRA" />
+  </a>
 </p>
 
 <br>
