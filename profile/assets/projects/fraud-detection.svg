@@ -1,0 +1,19 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="252" height="64" viewBox="0 0 252 64">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#121A23"/>
+<stop offset="100%" stop-color="#080D13"/>
+</linearGradient>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#A8D8FF"/>
+<stop offset="100%" stop-color="#4F88BF"/>
+</linearGradient>
+</defs>
+<rect x="1" y="1" width="250" height="62" rx="15" fill="url(#bg)" stroke="#3B4958"/>
+<circle cx="31" cy="32" r="16" fill="#0D151D" stroke="#9AA8B6"/>
+<path d="M31 20l8 3v7c0 6-4 10-8 12-4-2-8-6-8-12v-7z" fill="none" stroke="url(#a)" stroke-width="1.9"/>
+<path d="M26 31h3l2-4 2 8 2-4h3" fill="none" stroke="#BFE0FF" stroke-width="1.5"/>
+<text x="57" y="29" font-family="Segoe UI,Arial" font-size="12.5" font-weight="700" fill="#F4F7FA">FRAUD DETECTION</text>
+<text x="57" y="46" font-family="Segoe UI,Arial" font-size="9.5" fill="#8D9AAA">Machine learning</text>
+<path d="M226 28l6 4-6 4" fill="none" stroke="#8798A9" stroke-width="1.5"/>
+</svg>

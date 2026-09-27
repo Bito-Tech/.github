@@ -1,0 +1,75 @@
+name: Render Living Hero
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+      - design/profile-hero-v2
+
+    paths:
+      - "profile/network.config.json"
+      - "profile/assets/hero/hero-dark.template.svg"
+      - "scripts/render-network.mjs"
+      - ".github/workflows/render-profile-network.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-living-hero-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    name: Generate Bito-Tech Hero
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Render hero
+        run: node scripts/render-network.mjs
+
+      - name: Check generated changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet -- \
+            profile/assets/hero/hero-dark.svg \
+            profile/assets/hero/hero-light.svg; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit generated heroes
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            profile/assets/hero/hero-dark.svg \
+            profile/assets/hero/hero-light.svg
+
+          git commit -m "chore(profile): render living heroes"
+          git push
+      - name: Commit generated hero
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/assets/hero/hero-dark.svg
+          git commit -m "chore(profile): render living hero"
+          git push

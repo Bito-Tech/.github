@@ -1,0 +1,55 @@
+{
+  "organization": {
+    "name": "Bito-Tech",
+    "tagline": "We build ideas into real systems.",
+    "github": "https://github.com/Bito-Tech",
+    "linkedin": "https://www.linkedin.com/company/bito-tech"
+  },
+
+  "members": [
+    {
+      "name": "Ayman",
+      "github": "https://github.com/ayman-albaidahi"
+    },
+    {
+      "name": "Al-Harith",
+      "github": "https://github.com/Alhareith"
+    },
+    {
+      "name": "Abdullah Hamoud",
+      "github": "https://github.com/Abdullah-Al-basheri"
+    },
+    {
+      "name": "Malek",
+      "github": "https://github.com/Malek711"
+    },
+    {
+      "name": "Mulatif",
+      "github": "https://github.com/Mulatef-Aldahia"
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "MASARAK",
+      "repository": "https://github.com/Bito-Tech/msarak",
+      "subtitle": "Academic guidance"
+    },
+    {
+      "name": "FRAUD DETECTION",
+      "repository": "https://github.com/Bito-Tech/fraud-detection-paysim",
+      "subtitle": "Machine learning"
+    },
+    {
+      "name": "FEDRA",
+      "repository": "https://github.com/Bito-Tech/fedra-pharmacy-management-system",
+      "subtitle": "Pharmacy system"
+    }
+  ],
+
+  "render": {
+    "theme": "dark",
+    "motion": true,
+    "output": "profile/assets/hero/hero-dark.svg"
+  }
+}
