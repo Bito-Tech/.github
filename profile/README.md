@@ -1,9 +1,19 @@
 <p align="center">
-  <img
-    src="./assets/hero/hero-dark.svg"
-    width="100%"
-    alt="Bito-Tech"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/hero/hero-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/hero/hero-light.svg"
+    >
+    <img
+      src="./assets/hero/hero-light.svg"
+      width="100%"
+      alt="Bito-Tech Technology Team"
+    >
+  </picture>
 </p>
 
 
