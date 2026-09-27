@@ -26,3 +26,78 @@
 </p>
 
 <br>
+
+<h3 align="center">Team</h3>
+
+<p align="center">
+
+  <a href="https://github.com/ayman-albaidahi">
+    <img src="https://github.com/ayman-albaidahi.png?size=96"
+         width="54"
+         height="54"
+         alt="Ayman">
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Alhareith">
+    <img src="https://github.com/Alhareith.png?size=96"
+         width="54"
+         height="54"
+         alt="Al-Harith">
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Abdullah-Al-basheri">
+    <img src="https://github.com/Abdullah-Al-basheri.png?size=96"
+         width="54"
+         height="54"
+         alt="Abdullah Hamoud">
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Malek711">
+    <img src="https://github.com/Malek711.png?size=96"
+         width="54"
+         height="54"
+         alt="Malek">
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Mulatef-Aldahia">
+    <img src="https://github.com/Mulatef-Aldahia.png?size=96"
+         width="54"
+         height="54"
+         alt="Mulatif">
+  </a>
+
+</p>
+
+<p align="center">
+  <sub>
+    <b>Ayman</b>
+    &nbsp;&nbsp;&nbsp;
+    <b>Al-Harith</b>
+    &nbsp;&nbsp;&nbsp;
+    <b>Abdullah Hamoud</b>
+    &nbsp;&nbsp;&nbsp;
+    <b>Malek</b>
+    &nbsp;&nbsp;&nbsp;
+    <b>Mulatif</b>
+  </sub>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://www.linkedin.com/company/bito-tech">
+    <img
+      src="https://cdn.simpleicons.org/linkedin/0A66C2"
+      width="34"
+      height="34"
+      alt="Bito-Tech LinkedIn"
+      title="Bito-Tech on LinkedIn"
+    />
+  </a>
+</p>
+
+<br>
