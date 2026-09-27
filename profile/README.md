@@ -1,3 +1,48 @@
+<p align="center">
+  <img
+    src="./assets/hero/hero-dark.svg"
+    width="100%"
+    alt="Bito-Tech"
+  />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ayman-albaidahi">
+    <img src="./assets/team/avatars/ayman.png" width="44" height="44" alt="Ayman" />
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Alhareith">
+    <img src="./assets/team/avatars/alhareith.png" width="44" height="44" alt="Al-Harith" />
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Abdullah-Al-basheri">
+    <img src="./assets/team/avatars/abdullah-hamoud.png" width="44" height="44" alt="Abdullah Hamoud" />
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Malek711">
+    <img src="./assets/team/avatars/malek.png" width="44" height="44" alt="Malek" />
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/Mulatef-Aldahia">
+    <img src="./assets/team/avatars/mulatif.png" width="44" height="44" alt="Mulatif" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Bito-Tech/msarak"><b>MASARAK</b></a>
+  &nbsp;&nbsp; • &nbsp;&nbsp;
+  <a href="https://github.com/Bito-Tech/fraud-detection-paysim"><b>FRAUD DETECTION</b></a>
+  &nbsp;&nbsp; • &nbsp;&nbsp;
+  <a href="https://github.com/Bito-Tech/fedra-pharmacy-management-system"><b>FEDRA</b></a>
+</p>
+
+<br>
+
+
 Bito-Tech
 
 Student-Led Technology Team
