@@ -89,14 +89,12 @@
 <br>
 
 <p align="center">
+  <a href="https://github.com/bito-tech">
+    <img src="https://skillicons.dev/icons?i=github" width="45" alt="GitHub">
+  </a>
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/company/bito-tech">
-    <img
-      src="https://cdn.simpleicons.org/linkedin/0A66C2"
-      width="34"
-      height="34"
-      alt="Bito-Tech LinkedIn"
-      title="Bito-Tech on LinkedIn"
-    />
+    <img src="https://skillicons.dev/icons?i=linkedin" width="45" alt="LinkedIn">
   </a>
 </p>
 
