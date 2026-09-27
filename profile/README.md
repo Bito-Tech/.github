@@ -2,89 +2,115 @@ Bito-Tech
 
 Student-Led Technology Team
 
-Bito-Tech is a student-led technology team focused on software engineering, artificial intelligence, web application development, and practical digital solutions.
+«Building Today. Innovating Tomorrow.»
 
-We turn ideas into real-world software projects while developing professional engineering practices, technical skills, and collaborative teamwork.
+Bito-Tech is a student-led technology team focused on Software Engineering, Artificial Intelligence, Web Development, and practical digital solutions.
 
-About Us
+We turn ideas into real-world software projects while developing strong engineering practices, technical skills, and collaborative teamwork.
+
+<p align="center">
+  <a href="https://github.com/bito-tech">
+    <img src="https://skillicons.dev/icons?i=github" width="45" alt="GitHub">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/company/bito-tech">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="45" alt="LinkedIn">
+  </a>
+</p>---
+
+📖 About Us
 
 Bito-Tech was founded by Information Technology students passionate about building software, exploring emerging technologies, and solving real-world problems through technology.
 
-Our work combines academic knowledge with practical software development, giving our team experience in software engineering, artificial intelligence, web development, databases, computer vision, and modern development practices.
+Our work combines academic knowledge with practical software development, giving our team hands-on experience in software engineering, artificial intelligence, web development, databases, computer vision, and modern development practices.
 
-Our goal is to continuously learn, build, test, and improve — turning ideas into reliable and meaningful digital solutions.
+We believe that the best way to learn technology is to build, test, break, improve, and build again.
+
+---
 
 What We Do
 
-- Web Application Development
-- Artificial Intelligence & Machine Learning
-- Computer Vision
-- Database Design & Management
-- Software Engineering
-- Open Source Development
-- Digital Image Processing
-- Technical Research & Innovation
+Software Engineering| AI & Research| Digital Solutions
+Web Applications| Artificial Intelligence| Digital Image Processing
+Software Engineering| Machine Learning| Database Systems
+Open Source Development| Computer Vision| Technical Research
+
+---
 
 Featured Projects
 
 Msarak
 
-A web-based assessment and career guidance platform developed to provide a structured digital experience for assessment, scoring, and career-related insights.
+A web-based assessment and career guidance platform designed to provide a structured digital experience for assessment, scoring, and career-related insights.
 
-Technologies: Laravel, PHP, MySQL, JavaScript
+Tech Stack
 
-AI & Computer Vision Projects
+"Laravel" "PHP" "MySQL" "JavaScript"
 
-We develop practical artificial intelligence and computer vision projects that explore real-world applications, including image processing, visual analysis, and intelligent systems.
+---
+
+AI & Computer Vision
+
+Research and development of practical Artificial Intelligence and Computer Vision projects, exploring image processing, visual analysis, machine learning, and intelligent systems.
+
+---
 
 University Software Projects
 
-We build software systems as practical applications of software engineering concepts, including web applications, desktop systems, database-driven applications, and client-server architectures.
+Practical software systems developed to apply software engineering concepts to real-world scenarios, including web applications, desktop systems, and database-driven solutions.
 
-Technologies
+---
 
-- Python
-- JavaScript
-- PHP
-- C#
-- HTML & CSS
-- SQL
-- Laravel
-- .NET
-- Machine Learning
-- Computer Vision
-- OpenCV
-- Git & GitHub
+Technologies & Tools
 
-Our Approach
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,php,cs,html,css,mysql,laravel,dotnet,opencv,git,github" alt="Technologies and Tools">
+</p>---
 
-At Bito-Tech, we believe software development is more than writing code.
+Engineering Mindset
 
-We focus on:
+We don't just focus on making software work.
 
-- Understanding the problem before building the solution
-- Designing maintainable software
-- Testing and reviewing our work
-- Using Git and GitHub for collaborative development
-- Applying software engineering practices
-- Learning from real implementation challenges
-- Working as a team and sharing technical knowledge
+We focus on understanding why it works and building it properly.
+
+Understand the Problem
+        ↓
+Design the Solution
+        ↓
+Build
+        ↓
+Test
+        ↓
+Review
+        ↓
+Improve
+
+Our development process emphasizes:
+
+- Understanding the problem before implementation
+- Maintainable and structured software
+- Testing and verification
+- Code review
+- Git & GitHub collaboration
+- Teamwork and knowledge sharing
+- Continuous learning
+
+---
 
 Core Team
 
-- Abdullah Al-Basheri
-- Malik Nabil Ziyad
-- Al-Harith Al-Dahiyah
-- Mulatif Al-Dahiyah
-- Ayman Al-Baidhi
-
-Connect With Bito-Tech
-
-GitHub:
-https://github.com/bito-tech
-
-LinkedIn:
-https://www.linkedin.com/company/bito-tech
+<table>
+<tr>
+<td align="center"><b>Abdullah Al-Basheri</b></td>
+<td align="center"><b>Malik Nabil Ziyad</b></td>
+<td align="center"><b>Al-Harith Al-Dahiyah</b></td>
+</tr>
+<tr>
+<td align="center"><b>Mulatif Al-Dahiyah</b></td>
+<td align="center"><b>Ayman Al-Baidhi</b></td>
+<td align="center"></td>
+</tr>
+</table>---
 
 Vision
 
@@ -92,4 +118,8 @@ Our vision is to grow from a student-led technology team into a professional sof
 
 ---
 
-Bito-Tech — Building Today, Innovating Tomorrow.
+<p align="center">Building Today. Innovating Tomorrow.
+
+Bito-Tech
+
+</p>
