@@ -12,6 +12,10 @@
       <stop offset="1" stop-color="#111925"/>
     </linearGradient>
 
+    <clipPath id="teamLogoClip">
+      <circle cx="600" cy="250" r="31"/>
+    </clipPath>
+
     <radialGradient id="glowA" cx="52%" cy="48%" r="55%">
       <stop offset="0" stop-color="#2563EB" stop-opacity=".13"/>
       <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
@@ -255,10 +259,17 @@
       <animate attributeName="opacity" values=".22;.02;.22" dur="5s" repeatCount="indefinite"/>
     </circle>
   </g>
-
-  <text x="600" y="246" text-anchor="middle" fill="#101820" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">BT</text>
-  <text x="600" y="262" text-anchor="middle" fill="#2C6FA9" font-family="Segoe UI, Arial, sans-serif" font-size="6.8" font-weight="800" letter-spacing="1.2">BITO-TECH</text>
-
+  
+  <image
+  href="https://avatars.githubusercontent.com/u/296584311?v=4"
+  x="569"
+  y="219"
+  width="62"
+  height="62"
+  preserveAspectRatio="xMidYMid slice"
+  clip-path="url(#teamLogoClip)"
+/>
+ 
   <!-- NODES -->
   <g>
     <circle cx="185" cy="122" r="4.5" fill="#28C8F8"/>
