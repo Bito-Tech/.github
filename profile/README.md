@@ -11,7 +11,27 @@
 </p>
 
 <br>
+<br>
 
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/tech/tech-network-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/tech/tech-network-light.svg"
+    >
+    <img
+      src="./assets/tech/tech-network-light.svg"
+      width="100%"
+      alt="Bito-Tech Technology Network"
+    >
+  </picture>
+</p>
+
+<br>
 <h3 align="center">Team</h3>
 
 <p align="center">

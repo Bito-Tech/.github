@@ -1,0 +1,567 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">Bito-Tech Technology Capability Network — Light</title>
+  <desc id="desc">Six main capability cards with external technology nodes. Each technology is connected by its own animated thread.</desc>
+
+  <defs>
+    <!-- ========================= -->
+    <!-- BACKGROUND -->
+    <!-- ========================= -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FCFDFE"/>
+      <stop offset=".48" stop-color="#F4F8FB"/>
+      <stop offset="1" stop-color="#EAF1F7"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="18%" cy="14%" r="38%">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="82%" cy="18%" r="34%">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowC" cx="50%" cy="82%" r="45%">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ========================= -->
+    <!-- COMMON GRADIENTS -->
+    <!-- ========================= -->
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".22" stop-color="#FBFCFE"/>
+      <stop offset=".72" stop-color="#F3F7FA"/>
+      <stop offset="1" stop-color="#EAF0F5"/>
+    </linearGradient>
+
+    <linearGradient id="nodeFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".65" stop-color="#F6F9FC"/>
+      <stop offset="1" stop-color="#ECF2F7"/>
+    </linearGradient>
+
+    <linearGradient id="cardTopGloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset=".23" stop-color="#FFFFFF" stop-opacity=".62"/>
+      <stop offset=".72" stop-color="#FFFFFF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".78"/>
+    </linearGradient>
+
+    <!-- ========================= -->
+    <!-- CATEGORY ACCENTS -->
+    <!-- ========================= -->
+    <linearGradient id="webAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <linearGradient id="desktopAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+
+    <linearGradient id="dbAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22C58B"/>
+      <stop offset="1" stop-color="#078B63"/>
+    </linearGradient>
+
+    <linearGradient id="aiAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+
+    <linearGradient id="visionAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F43F72"/>
+      <stop offset="1" stop-color="#DB2777"/>
+    </linearGradient>
+
+    <linearGradient id="qualityAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#2947BF"/>
+    </linearGradient>
+
+    <!-- ========================= -->
+    <!-- SHADOWS -->
+    <!-- ========================= -->
+    <filter id="cardShadow" x="-20%" y="-20%" width="150%" height="180%">
+      <feDropShadow dx="0" dy="13" stdDeviation="15" flood-color="#61788E" flood-opacity=".18"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#FFFFFF" flood-opacity=".90"/>
+    </filter>
+
+    <filter id="nodeShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#60768B" flood-opacity=".18"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#FFFFFF" flood-opacity=".95"/>
+    </filter>
+
+    <filter id="softGlow" x="-250%" y="-250%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- ========================= -->
+    <!-- COMMON TYPOGRAPHY -->
+    <!-- ========================= -->
+    <style>
+      .ui { font-family: "Segoe UI", Arial, sans-serif; }
+      .cardTitle { fill:#1B2937; font-size:18px; font-weight:800; letter-spacing:.5px; }
+      .cardNum { font-size:11px; font-weight:800; }
+      .cardMeta { fill:#6E8192; font-size:11px; letter-spacing:1.2px; }
+      .nodeText { fill:#263849; font-size:10px; font-weight:700; }
+      .nodeText2 { fill:#718394; font-size:9px; font-weight:700; }
+      .iconMono { fill:#FFFFFF; font-size:12px; font-weight:900; text-anchor:middle; dominant-baseline:middle; }
+      .gridStroke { stroke:#668097; stroke-opacity:.08; stroke-width:1; }
+      .thread { fill:none; stroke-width:1.8; stroke-linecap:round; }
+      .pulseRing { fill:none; stroke-width:1.2; }
+    </style>
+  </defs>
+
+  <!-- ========================= -->
+  <!-- BACKGROUND -->
+  <!-- ========================= -->
+  <rect width="1400" height="640" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="640" rx="28" fill="url(#glowA)"/>
+  <rect width="1400" height="640" rx="28" fill="url(#glowB)"/>
+  <rect width="1400" height="640" rx="28" fill="url(#glowC)"/>
+
+  <rect x="10" y="10" width="1380" height="620" rx="24"
+        fill="none" stroke="#C7D3DE"/>
+
+  <rect x="18" y="18" width="1364" height="604" rx="20"
+        fill="none" stroke="#FFFFFF" stroke-opacity=".95"/>
+
+  <!-- subtle grid -->
+  <g class="gridStroke">
+    <path d="M40 90H1360"/>
+    <path d="M40 180H1360"/>
+    <path d="M40 270H1360"/>
+    <path d="M40 360H1360"/>
+    <path d="M40 450H1360"/>
+    <path d="M40 540H1360"/>
+
+    <path d="M120 30V610"/>
+    <path d="M240 30V610"/>
+    <path d="M360 30V610"/>
+    <path d="M480 30V610"/>
+    <path d="M600 30V610"/>
+    <path d="M720 30V610"/>
+    <path d="M840 30V610"/>
+    <path d="M960 30V610"/>
+    <path d="M1080 30V610"/>
+    <path d="M1200 30V610"/>
+    <path d="M1320 30V610"/>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- THREADS: WEB -->
+  <!-- ====================================================== -->
+  <g>
+    <path class="thread" stroke="#00AFCB" stroke-opacity=".42" d="M230 140 C220 175 165 205 89 244"/>
+    <path class="thread" stroke="#00AFCB" stroke-opacity=".42" d="M230 140 C225 175 197 205 165 244"/>
+    <path class="thread" stroke="#00AFCB" stroke-opacity=".42" d="M230 140 C230 180 230 205 241 244"/>
+    <path class="thread" stroke="#00AFCB" stroke-opacity=".42" d="M230 140 C245 175 265 205 317 244"/>
+    <path class="thread" stroke="#00AFCB" stroke-opacity=".42" d="M230 140 C258 175 320 205 393 244"/>
+
+    <circle r="3.8" fill="#00BCD7" filter="url(#softGlow)">
+      <animateMotion path="M230 140 C220 175 165 205 89 244" dur="2.2s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#00BCD7" filter="url(#softGlow)">
+      <animateMotion path="M230 140 C225 175 197 205 165 244" dur="2.2s" begin=".18s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#00BCD7" filter="url(#softGlow)">
+      <animateMotion path="M230 140 C230 180 230 205 241 244" dur="2.2s" begin=".36s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#00BCD7" filter="url(#softGlow)">
+      <animateMotion path="M230 140 C245 175 265 205 317 244" dur="2.2s" begin=".54s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#00BCD7" filter="url(#softGlow)">
+      <animateMotion path="M230 140 C258 175 320 205 393 244" dur="2.2s" begin=".72s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- THREADS: DESKTOP -->
+  <!-- ====================================================== -->
+  <g>
+    <path class="thread" stroke="#9855E6" stroke-opacity=".43" d="M700 140 C685 175 670 205 653 244"/>
+    <path class="thread" stroke="#9855E6" stroke-opacity=".43" d="M700 140 C715 175 730 205 743 244"/>
+
+    <circle r="3.8" fill="#A855F7" filter="url(#softGlow)">
+      <animateMotion path="M700 140 C685 175 670 205 653 244" dur="2.1s" begin=".08s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#A855F7" filter="url(#softGlow)">
+      <animateMotion path="M700 140 C715 175 730 205 743 244" dur="2.1s" begin=".42s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- THREADS: DATABASES -->
+  <!-- ====================================================== -->
+  <g>
+    <path class="thread" stroke="#119E72" stroke-opacity=".43" d="M1170 140 C1152 175 1137 205 1119 244"/>
+    <path class="thread" stroke="#119E72" stroke-opacity=".43" d="M1170 140 C1190 175 1207 205 1207 244"/>
+
+    <circle r="3.8" fill="#17B982" filter="url(#softGlow)">
+      <animateMotion path="M1170 140 C1152 175 1137 205 1119 244" dur="2.1s" begin=".14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#17B982" filter="url(#softGlow)">
+      <animateMotion path="M1170 140 C1190 175 1207 205 1207 244" dur="2.1s" begin=".48s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- THREADS: AI / DATA -->
+  <!-- ====================================================== -->
+  <g>
+    <path class="thread" stroke="#E99A00" stroke-opacity=".45" d="M230 500 C215 455 175 425 93 390"/>
+    <path class="thread" stroke="#E99A00" stroke-opacity=".45" d="M230 500 C220 455 195 425 173 390"/>
+    <path class="thread" stroke="#E99A00" stroke-opacity=".45" d="M230 500 C230 455 235 425 253 390"/>
+    <path class="thread" stroke="#E99A00" stroke-opacity=".45" d="M230 500 C245 455 275 425 333 390"/>
+
+    <circle r="3.8" fill="#F4A600" filter="url(#softGlow)">
+      <animateMotion path="M230 500 C215 455 175 425 93 390" dur="2.3s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#F4A600" filter="url(#softGlow)">
+      <animateMotion path="M230 500 C220 455 195 425 173 390" dur="2.3s" begin=".18s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#F4A600" filter="url(#softGlow)">
+      <animateMotion path="M230 500 C230 455 235 425 253 390" dur="2.3s" begin=".36s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#F4A600" filter="url(#softGlow)">
+      <animateMotion path="M230 500 C245 455 275 425 333 390" dur="2.3s" begin=".54s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- THREADS: COMPUTER VISION -->
+  <!-- ====================================================== -->
+  <g>
+    <path class="thread" stroke="#E64281" stroke-opacity=".43" d="M700 500 C682 455 665 425 633 390"/>
+    <path class="thread" stroke="#E64281" stroke-opacity=".43" d="M700 500 C700 455 700 425 713 390"/>
+    <path class="thread" stroke="#E64281" stroke-opacity=".43" d="M700 500 C720 455 745 425 793 390"/>
+
+    <circle r="3.8" fill="#EF4F8C" filter="url(#softGlow)">
+      <animateMotion path="M700 500 C682 455 665 425 633 390" dur="2.2s" begin=".08s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#EF4F8C" filter="url(#softGlow)">
+      <animateMotion path="M700 500 C700 455 700 425 713 390" dur="2.2s" begin=".34s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#EF4F8C" filter="url(#softGlow)">
+      <animateMotion path="M700 500 C720 455 745 425 793 390" dur="2.2s" begin=".60s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- THREADS: ENGINEERING & QUALITY -->
+  <!-- ====================================================== -->
+  <g>
+    <path class="thread" stroke="#368DE8" stroke-opacity=".45" d="M1170 500 C1145 455 1090 425 1017 390"/>
+    <path class="thread" stroke="#368DE8" stroke-opacity=".45" d="M1170 500 C1155 455 1130 425 1097 390"/>
+    <path class="thread" stroke="#368DE8" stroke-opacity=".45" d="M1170 500 C1170 455 1175 425 1177 390"/>
+    <path class="thread" stroke="#368DE8" stroke-opacity=".45" d="M1170 500 C1185 455 1220 425 1257 390"/>
+    <path class="thread" stroke="#368DE8" stroke-opacity=".45" d="M1170 500 C1200 455 1270 425 1337 390"/>
+
+    <circle r="3.8" fill="#3C93EC" filter="url(#softGlow)">
+      <animateMotion path="M1170 500 C1145 455 1090 425 1017 390" dur="2.25s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#3C93EC" filter="url(#softGlow)">
+      <animateMotion path="M1170 500 C1155 455 1130 425 1097 390" dur="2.25s" begin=".16s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#3C93EC" filter="url(#softGlow)">
+      <animateMotion path="M1170 500 C1170 455 1175 425 1177 390" dur="2.25s" begin=".32s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#3C93EC" filter="url(#softGlow)">
+      <animateMotion path="M1170 500 C1185 455 1220 425 1257 390" dur="2.25s" begin=".48s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.8" fill="#3C93EC" filter="url(#softGlow)">
+      <animateMotion path="M1170 500 C1200 455 1270 425 1337 390" dur="2.25s" begin=".64s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- MAIN CARDS -->
+  <!-- ====================================================== -->
+
+  <!-- WEB -->
+  <g class="ui" transform="translate(70 48)" filter="url(#cardShadow)">
+    <rect width="320" height="92" rx="22" fill="url(#cardFill)" stroke="#06B6D4" stroke-opacity=".42"/>
+    <path d="M22 1 H298 C308 1 316 9 319 18 H1 C4 9 12 1 22 1 Z" fill="url(#cardTopGloss)" opacity=".92"/>
+    <rect x="0" y="0" width="320" height="5" rx="3" fill="url(#webAccent)"/>
+    <text class="cardTitle" x="18" y="30">WEB &amp; API ENGINEERING</text>
+    <text class="cardNum" x="298" y="30" text-anchor="end" fill="#008DA7">01</text>
+    <text class="cardMeta" x="18" y="57">APPLICATIONS · APIS · INTERFACES</text>
+    <text x="18" y="76" fill="#667B8C" font-size="12">Products, web systems, and service layers.</text>
+  </g>
+
+  <!-- DESKTOP -->
+  <g class="ui" transform="translate(540 48)" filter="url(#cardShadow)">
+    <rect width="320" height="92" rx="22" fill="url(#cardFill)" stroke="#A855F7" stroke-opacity=".40"/>
+    <path d="M22 1 H298 C308 1 316 9 319 18 H1 C4 9 12 1 22 1 Z" fill="url(#cardTopGloss)" opacity=".92"/>
+    <rect x="0" y="0" width="320" height="5" rx="3" fill="url(#desktopAccent)"/>
+    <text class="cardTitle" x="18" y="30">DESKTOP / .NET</text>
+    <text class="cardNum" x="298" y="30" text-anchor="end" fill="#8840D2">02</text>
+    <text class="cardMeta" x="18" y="57">WINDOWS APPS · TOOLS</text>
+    <text x="18" y="76" fill="#667B8C" font-size="12">Practical desktop solutions and utilities.</text>
+  </g>
+
+  <!-- DATABASES -->
+  <g class="ui" transform="translate(1010 48)" filter="url(#cardShadow)">
+    <rect width="320" height="92" rx="22" fill="url(#cardFill)" stroke="#16B981" stroke-opacity=".40"/>
+    <path d="M22 1 H298 C308 1 316 9 319 18 H1 C4 9 12 1 22 1 Z" fill="url(#cardTopGloss)" opacity=".92"/>
+    <rect x="0" y="0" width="320" height="5" rx="3" fill="url(#dbAccent)"/>
+    <text class="cardTitle" x="18" y="30">DATABASES</text>
+    <text class="cardNum" x="298" y="30" text-anchor="end" fill="#07855F">03</text>
+    <text class="cardMeta" x="18" y="57">STRUCTURED DATA · STORAGE</text>
+    <text x="18" y="76" fill="#667B8C" font-size="12">Reliable persistence and relational design.</text>
+  </g>
+
+  <!-- AI / DATA -->
+  <g class="ui" transform="translate(70 500)" filter="url(#cardShadow)">
+    <rect width="320" height="92" rx="22" fill="url(#cardFill)" stroke="#F59E0B" stroke-opacity=".42"/>
+    <path d="M22 1 H298 C308 1 316 9 319 18 H1 C4 9 12 1 22 1 Z" fill="url(#cardTopGloss)" opacity=".92"/>
+    <rect x="0" y="0" width="320" height="5" rx="3" fill="url(#aiAccent)"/>
+    <text class="cardTitle" x="18" y="30">AI / DATA</text>
+    <text class="cardNum" x="298" y="30" text-anchor="end" fill="#C77800">04</text>
+    <text class="cardMeta" x="18" y="57">ML · EXPLAINABILITY · INTERFACES</text>
+    <text x="18" y="76" fill="#667B8C" font-size="12">Modeling, interpretation, and delivery layers.</text>
+  </g>
+
+  <!-- COMPUTER VISION -->
+  <g class="ui" transform="translate(540 500)" filter="url(#cardShadow)">
+    <rect width="320" height="92" rx="22" fill="url(#cardFill)" stroke="#F43F72" stroke-opacity=".41"/>
+    <path d="M22 1 H298 C308 1 316 9 319 18 H1 C4 9 12 1 22 1 Z" fill="url(#cardTopGloss)" opacity=".92"/>
+    <rect x="0" y="0" width="320" height="5" rx="3" fill="url(#visionAccent)"/>
+    <text class="cardTitle" x="18" y="30">COMPUTER VISION</text>
+    <text class="cardNum" x="298" y="30" text-anchor="end" fill="#D03972">05</text>
+    <text class="cardMeta" x="18" y="57">DETECTION · OCR · FACE · POSE</text>
+    <text x="18" y="76" fill="#667B8C" font-size="12">Visual pipelines for analysis and recognition.</text>
+  </g>
+
+  <!-- ENGINEERING & QUALITY -->
+  <g class="ui" transform="translate(1010 500)" filter="url(#cardShadow)">
+    <rect width="320" height="92" rx="22" fill="url(#cardFill)" stroke="#3B82F6" stroke-opacity=".41"/>
+    <path d="M22 1 H298 C308 1 316 9 319 18 H1 C4 9 12 1 22 1 Z" fill="url(#cardTopGloss)" opacity=".92"/>
+    <rect x="0" y="0" width="320" height="5" rx="3" fill="url(#qualityAccent)"/>
+    <text class="cardTitle" x="18" y="30">ENGINEERING &amp; QUALITY</text>
+    <text class="cardNum" x="298" y="30" text-anchor="end" fill="#2676C6">06</text>
+    <text class="cardMeta" x="18" y="57">VERSIONING · CI · TESTING</text>
+    <text x="18" y="76" fill="#667B8C" font-size="12">Workflow discipline, automation, and reliability.</text>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- TECH NODES -->
+  <!-- ====================================================== -->
+
+  <!-- WEB -->
+  <g class="ui">
+    <g transform="translate(52 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#06B6D4" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#777BB4"/>
+      <text class="iconMono" x="37" y="24" font-size="10">PHP</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">PHP</text>
+    </g>
+
+    <g transform="translate(128 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#06B6D4" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#FF2D20"/>
+      <text class="iconMono" x="37" y="24">L</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">Laravel</text>
+    </g>
+
+    <g transform="translate(204 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#06B6D4" stroke-opacity=".24"/>
+      <rect x="23" y="10" width="28" height="28" rx="7" fill="#F7DF1E"/>
+      <text x="37" y="28" text-anchor="middle" fill="#111111" font-size="12" font-weight="900">JS</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">JavaScript</text>
+    </g>
+
+    <g transform="translate(280 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#06B6D4" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#06B6D4"/>
+      <text class="iconMono" x="37" y="24">TW</text>
+      <text class="nodeText" x="37" y="49" text-anchor="middle">Tailwind</text>
+      <text class="nodeText2" x="37" y="61" text-anchor="middle">CSS</text>
+    </g>
+
+    <g transform="translate(356 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#06B6D4" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#009688"/>
+      <text class="iconMono" x="37" y="24">API</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">FastAPI</text>
+    </g>
+  </g>
+
+  <!-- DESKTOP -->
+  <g class="ui">
+    <g transform="translate(616 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#A855F7" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#9B4F96"/>
+      <text class="iconMono" x="37" y="24">C#</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">C#</text>
+    </g>
+
+    <g transform="translate(706 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#A855F7" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#512BD4"/>
+      <text class="iconMono" x="37" y="24">.N</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">.NET</text>
+    </g>
+  </g>
+
+  <!-- DATABASES -->
+  <g class="ui">
+    <g transform="translate(1082 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#16B981" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#4479A1"/>
+      <text class="iconMono" x="37" y="24">MY</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">MySQL</text>
+    </g>
+
+    <g transform="translate(1170 244)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#16B981" stroke-opacity=".24"/>
+      <circle cx="37" cy="24" r="14" fill="#EE352C"/>
+      <text class="iconMono" x="37" y="24">SQL</text>
+      <text class="nodeText" x="37" y="49" text-anchor="middle">SQL</text>
+      <text class="nodeText2" x="37" y="61" text-anchor="middle">Server</text>
+    </g>
+  </g>
+
+  <!-- AI / DATA -->
+  <g class="ui">
+    <g transform="translate(56 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#F59E0B" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#3776AB"/>
+      <circle cx="44" cy="17" r="4" fill="#FFD343"/>
+      <text class="iconMono" x="33" y="24">Py</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">Python</text>
+    </g>
+
+    <g transform="translate(136 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#F59E0B" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#EC6B23"/>
+      <text class="iconMono" x="37" y="24" font-size="10">XGB</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">XGBoost</text>
+    </g>
+
+    <g transform="translate(216 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#F59E0B" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#E85B7A"/>
+      <text class="iconMono" x="37" y="24">SH</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">SHAP</text>
+    </g>
+
+    <g transform="translate(296 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#F59E0B" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#F97316"/>
+      <text class="iconMono" x="37" y="24">GR</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">Gradio</text>
+    </g>
+  </g>
+
+  <!-- VISION -->
+  <g class="ui">
+    <g transform="translate(596 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#F43F72" stroke-opacity=".25"/>
+      <g transform="translate(37 24)">
+        <circle cx="0" cy="-6" r="6" fill="none" stroke="#FF4F5A" stroke-width="3"/>
+        <circle cx="-6" cy="6" r="6" fill="none" stroke="#35C56D" stroke-width="3"/>
+        <circle cx="6" cy="6" r="6" fill="none" stroke="#4F80FF" stroke-width="3"/>
+      </g>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">OpenCV</text>
+    </g>
+
+    <g transform="translate(676 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#F43F72" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#15D2CE"/>
+      <text class="iconMono" x="37" y="24">YO</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">YOLO</text>
+    </g>
+
+    <g transform="translate(756 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#F43F72" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#00A4EF"/>
+      <text class="iconMono" x="37" y="24">MP</text>
+      <text class="nodeText" x="37" y="49" text-anchor="middle">Media</text>
+      <text class="nodeText2" x="37" y="61" text-anchor="middle">Pipe</text>
+    </g>
+  </g>
+
+  <!-- ENGINEERING & QUALITY -->
+  <g class="ui">
+    <g transform="translate(980 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#3B82F6" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#F05032"/>
+      <text class="iconMono" x="37" y="24">Git</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">Git</text>
+    </g>
+
+    <g transform="translate(1060 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#3B82F6" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#24292F"/>
+      <text class="iconMono" x="37" y="24">GH</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">GitHub</text>
+    </g>
+
+    <g transform="translate(1140 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#3B82F6" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#2088FF"/>
+      <text class="iconMono" x="37" y="24">CI</text>
+      <text class="nodeText" x="37" y="49" text-anchor="middle">GitHub</text>
+      <text class="nodeText2" x="37" y="61" text-anchor="middle">Actions</text>
+    </g>
+
+    <g transform="translate(1220 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#3B82F6" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#3C9CD7"/>
+      <text class="iconMono" x="37" y="24">PU</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">PHPUnit</text>
+    </g>
+
+    <g transform="translate(1300 318)" filter="url(#nodeShadow)">
+      <rect width="74" height="72" rx="18" fill="url(#nodeFill)" stroke="#3B82F6" stroke-opacity=".25"/>
+      <circle cx="37" cy="24" r="14" fill="#0A9EDC"/>
+      <text class="iconMono" x="37" y="24">PT</text>
+      <text class="nodeText" x="37" y="50" text-anchor="middle">Pytest</text>
+    </g>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- SUBTLE NODE PULSES -->
+  <!-- ====================================================== -->
+  <g>
+    <circle class="pulseRing" cx="89" cy="244" r="8" stroke="#00AFCB" stroke-opacity=".20">
+      <animate attributeName="r" values="4;12;4" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".20;.03;.20" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle class="pulseRing" cx="653" cy="244" r="8" stroke="#9855E6" stroke-opacity=".20">
+      <animate attributeName="r" values="4;12;4" dur="3.6s" begin=".3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".20;.03;.20" dur="3.6s" begin=".3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle class="pulseRing" cx="1119" cy="244" r="8" stroke="#119E72" stroke-opacity=".20">
+      <animate attributeName="r" values="4;12;4" dur="3.8s" begin=".6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".20;.03;.20" dur="3.8s" begin=".6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle class="pulseRing" cx="93" cy="390" r="8" stroke="#E99A00" stroke-opacity=".20">
+      <animate attributeName="r" values="4;12;4" dur="3.5s" begin=".1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".20;.03;.20" dur="3.5s" begin=".1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle class="pulseRing" cx="633" cy="390" r="8" stroke="#E64281" stroke-opacity=".20">
+      <animate attributeName="r" values="4;12;4" dur="3.7s" begin=".4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".20;.03;.20" dur="3.7s" begin=".4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle class="pulseRing" cx="1017" cy="390" r="8" stroke="#368DE8" stroke-opacity=".20">
+      <animate attributeName="r" values="4;12;4" dur="3.9s" begin=".7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".20;.03;.20" dur="3.9s" begin=".7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
